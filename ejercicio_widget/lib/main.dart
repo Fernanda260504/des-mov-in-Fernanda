@@ -190,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: const EdgeInsets.all(12),
                 color: Colors.grey.shade300,
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: const [
@@ -206,9 +206,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       ],
                     ),
                     const SizedBox(height: 12),
-                    const Text('Nombre: Juan Pérez'),
-                    const Text('Correo: juan.perez@email.com'),
-                    const Text('Teléfono: +52 123 456 7890'),
+                    const Text('Nombre: Maria Fernanda Bautista Rodriguez'),
+                    const Text('Correo: fernanda.bautista.rodriguez@gmail.com'),
+                    const Text('Teléfono: +52 77 143 65 71'),
                   ],
                 ),
               ),
