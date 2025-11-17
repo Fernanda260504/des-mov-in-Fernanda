@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40599483931",
+    "project_id": "test-registro-acddc",
+    "storage_bucket": "test-registro-acddc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40599483931:android:2ebc07685667d6f92aeabe",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_notificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp4btSKotVB9ms0MZwBqkZNORi1nTiqIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40599483931:android:edd5920f972b2a3d2aeabe",
+        "android_client_info": {
+          "package_name": "com.example.registre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp4btSKotVB9ms0MZwBqkZNORi1nTiqIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
