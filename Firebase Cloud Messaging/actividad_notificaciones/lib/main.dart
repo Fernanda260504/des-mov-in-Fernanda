@@ -19,6 +19,8 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,6 +31,8 @@ class MyApp extends StatelessWidget {
 }
 
 class NotificationPage extends StatefulWidget {
+  const NotificationPage({super.key});
+
   @override
   State<NotificationPage> createState() => _NotificationPageState();
 }
@@ -43,10 +47,11 @@ class _NotificationPageState extends State<NotificationPage> {
 
     // Listener cuando la app está abierta
     FirebaseMessaging.onMessage.listen((message) {
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content:
-              Text("Notificación recibida: ${message.notification?.title}"),
+              Text("Notificación recibida: ${message.notification?.title} ${message.notification?.body}"),
         ),
       );
     });

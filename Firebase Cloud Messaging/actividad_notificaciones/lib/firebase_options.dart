@@ -59,4 +59,5 @@ class DefaultFirebaseOptions {
     projectId: 'test-registro-acddc',
     storageBucket: 'test-registro-acddc.firebasestorage.app',
   );
+
 }
